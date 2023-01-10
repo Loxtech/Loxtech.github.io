@@ -3,7 +3,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Loke's CV site</title>
+  <title>Loke's Info site</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
   <style>
     section{
@@ -14,7 +14,7 @@
 <body>
 
   <!-- navbar -->
-  <nav class="navbar navbar-expand-md navbar-light pt-5 pb-4">
+  <nav class="navbar navbar-expand-md navbar-light pt-5 pb-4 bg-info fixed-top">
     <div class="container-xxl">
       <!-- navbar brand / title -->
       <a class="navbar-brand" href="#intro">
@@ -56,12 +56,12 @@
             <div class="display-2">Loke Emil Bendtsen</div>
             <div class="display-5 text-muted">CV og Portfolio</div>
           </h1>
-          <p class="lead my-4 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, dignissimos?</p>
+          <p class="lead my-4 text-muted">Her kan du finde mit CV og mit Portfolio, håber det er til hjælp!</p>
           <a href="#CV" class="btn btn-secondary btn-lg">CV</a>
           <a href="#Portfolio" class="btn btn-secondary btn-lg">Portfolio</a>
         </div>
         <div class="col-md-5 text-center d-none d-md-block">
-          <img src="/assets/generic-photo.png" class="img-fluid" alt="ebook">
+          <img src="/assets/generic-photo.png" class="img-fluid" alt="generic-photo">
         </div>
       </div>
     </div>
@@ -71,7 +71,91 @@
 
 
   <!-- Portfolio -->
+  <section id="Portfolio">
+    <div class="container-md">
+      <div class="text-center">
+        <h2>Portfolio</h2>
+        <p class="lead text-muted">Et samlet syn over mit portfolio</p>
+      </div>
+      <div class="row my-5 g-5 justify-content-around align-items-center">
+        <div class="col-6 col-lg-4">
+          <img src="/assets/generic-photo.png" class="img-fluid" alt="generic-photo">
+        </div>
+        <div class="col-lg-6">
+          
+          <!-- accordion -->
+          <div class="accordion" id="items">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-1">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#item-1" aria-expanded="true" aria-controls="item-1">
+                  Item 1 - Denne hjemmeside
+                </button>
+              </h2>
+              <div id="item-1" class="accordion-collapse collapse show" aria-labelledby="heading-1" data-bs-parent="#items">
+                <div class="accordion-body">
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#item-2" aria-expanded="false" aria-controls="item-2">
+                  Item 2 - TBD
+                </button>
+              </h2>
+              <div id="item-2" class="accordion-collapse collapse" aria-labelledby="heading-2" data-bs-parent="#items">
+                <div class="accordion-body">
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#item-3" aria-expanded="false" aria-controls="item-1">
+                  Item 3 - TBD
+                </button>
+              </h2>
+              <div id="item-3" class="accordion-collapse collapse" aria-labelledby="heading-3" data-bs-parent="#items">
+                <div class="accordion-body">
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-4">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#item-4" aria-expanded="false" aria-controls="item-4">
+                  Item 4 - TBD
+                </button>
+              </h2>
+              <div id="item-4" class="accordion-collapse collapse" aria-labelledby="heading-4" data-bs-parent="#items">
+                <div class="accordion-body">
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-5">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#item-5" aria-expanded="false" aria-controls="item-5">
+                  Item 5 - TBD
+                </button>
+              </h2>
+              <div id="item-5" class="accordion-collapse collapse" aria-labelledby="heading-5" data-bs-parent="#items">
+                <div class="accordion-body">
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+                </div>
+              </div>
+            </div>
+          </div>
 
+        </div>
+      </div>
+    </div>
+  </section>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 </html>
