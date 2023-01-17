@@ -16,13 +16,13 @@
   <!-- navbar -->
   <nav class="navbar navbar-expand-md navbar-light pt-2 pb-2 bg-info fixed-top">
     <div class="container-xxl">
-      <!-- navbar brand / title -->
+      <!-- navbar brand / titel -->
       <a class="navbar-brand" href="#intro">
         <span class="text-secondary fw-bold">
           Loke's Info site
         </span>
       </a>
-      <!-- toggle button for mobile nav -->
+      <!-- toggle knap for mobile nav -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -30,15 +30,19 @@
       <!-- navbar links -->
       <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
         <ul class="navbar-nav">
+          <!-- Knap til CV på mobil-->
           <li class="nav-item d-md-none">
             <a class="nav-link" href="#CV">CV</a>
           </li>
+          <!-- Knap til CV på desktop -->
           <li class="nav-item ms-2 d-none d-md-inline">
             <a class="btn btn-secondary" href="#CV">CV</a>
           </li>
+          <!-- Knap til Portfolio på mobil-->
           <li class="nav-item d-md-none">
             <a class="nav-link" href="#Portfolio">Portfolio</a>
           </li>
+          <!-- Knap til Portfolio på desktop-->
           <li class="nav-item ms-2 d-none d-md-inline">
             <a class="btn btn-secondary" href="#Portfolio">Portfolio</a>
           </li>
@@ -47,20 +51,24 @@
     </div>
   </nav>
 
-  <!-- main image & intro text -->
+  <!-- main billede & intro tekst -->
   <section id="intro">
     <div class="container-lg">
   
+      <!-- Centering -->
       <div class="row g-4 justify-content-center align-items-center">
         <div class="col-md-5 text-center text-md-start">
+          <!-- Title og Navn -->
           <h1>
             <div class="display-2">Loke Emil Bendtsen</div>
             <div class="display-5 text-muted">CV og Portfolio</div>
           </h1>
+          <!-- Knapper -->
           <p class="lead my-4 text-muted">Her kan du finde mit CV og mit Portfolio, håber det er til hjælp!</p>
           <a href="#CV" class="btn btn-secondary btn-lg">CV</a>
           <a href="#Portfolio" class="btn btn-secondary btn-lg">Portfolio</a>
         </div>
+        <!-- Billede -->
         <div class="col-md-5 mt-5 text-center d-none d-md-block">
           <img src="/assets/Foto.png" class="img-fluid" alt="generic-photo">
         </div>
@@ -73,9 +81,11 @@
     <div class="container-lg">
       <div class="row g-4 justify-content-center align-items-center">
         <div class="col-md-5 text-center text-md-start">
+          <!-- Title -->
           <h1>
             <div class="display-2">CV:</div>
           </h1>
+          <!-- Info -->
           <div class="display-5 my-2 text-muted">Personlige oplysninger:</div>
             <div class="text-muted">Navn:     Loke Emil Bendtsen</div>
             <div class="text-muted">Adresse:  Nordmarksvej 128 2tv, Kastrup</div>
@@ -84,6 +94,7 @@
             <div class="text-muted">Født:     10-04/2002</div>
             <div class="text-muted">Kørekort: Kat B</div>
 
+            <!-- Resume og uddandelse -->
             <div class="display-5 my-2 text-muted">Resumé:</div>
             <p class="text-muted">Jeg har altid har haft en interesse for at arbejde inden for data-verden, grundet min
                 kærlighed til alt der har med computere at gøre. Uddannelse hos TEC lød til at den kunne
@@ -109,6 +120,7 @@
             <div class="text-muted">Programmering Visual C#</div>
             <div class="text-muted mb-3">git og GitHub</div>
             
+            <!-- Personlig profil og fritid-->
             <div class="display-5 my-2 text-muted">Person profil:</div>
             <p class="text-muted">Jeg er en ung og pålidelig fyr på 20 år. Jeg har et godt overblik og har nemt ved at forstå og
                 løse opgaver. Jeg er en god og vellidt teamplayer og går langt for at få et godt samarbejde
@@ -118,6 +130,7 @@
             <p class="text-muted">I min fritid kan jeg godt lide at spille computer med vennerne, tage ud og spille diverse spil,
                 som f.eks basketball. Udover det er jeg meget glad for at bruge tid med familien og venner.</p>
         </div>
+        <!-- Billede -->
         <div class="col-md-5 text-center d-none d-md-block">
           <img src="/assets/Foto.png" class="img-fluid" alt="generic-photo">
         </div>
@@ -138,14 +151,18 @@
         </div>
         <div class="col-lg-6">
           
-          <!-- accordion -->
+          <!-- Accordion -->
           <div class="accordion" id="items">
+            <!-- Accordion 1 -->
             <div class="accordion-item">
+              <!-- Accordion Header og ID -->
               <h2 class="accordion-header" id="heading-1">
+                <!-- Accordion funktionalitet -->
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#item-1" aria-expanded="true" aria-controls="item-1">
                   Item 1 - Denne hjemmeside
                 </button>
               </h2>
+              <!-- Accordion indehold -->
               <div id="item-1" class="accordion-collapse collapse show" aria-labelledby="heading-1" data-bs-parent="#items">
                 <div class="accordion-body">
                   <p>Jeg fik som opgave at lave en hjemmeside der kunne fremvise mit CV og mit Portfolio som det første i skoleoplæringescenteret. Det er denne hjemmeside du ligenu browser rundt på</p>
@@ -153,6 +170,7 @@
                 </div>
               </div>
             </div>
+            <!-- Accordion 2 -->
             <div class="accordion-item">
               <h2 class="accordion-header" id="heading-2">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#item-2" aria-expanded="false" aria-controls="item-2">
@@ -165,6 +183,7 @@
                 </div>
               </div>
             </div>
+            <!-- Accordion 3 -->
             <div class="accordion-item">
               <h2 class="accordion-header" id="heading-3">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#item-3" aria-expanded="false" aria-controls="item-1">
@@ -177,6 +196,7 @@
                 </div>
               </div>
             </div>
+            <!-- Accordion 4 -->
             <div class="accordion-item">
               <h2 class="accordion-header" id="heading-4">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#item-4" aria-expanded="false" aria-controls="item-4">
@@ -189,6 +209,7 @@
                 </div>
               </div>
             </div>
+            <!-- Accordion 5 -->
             <div class="accordion-item">
               <h2 class="accordion-header" id="heading-5">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#item-5" aria-expanded="false" aria-controls="item-5">
